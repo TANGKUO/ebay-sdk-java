@@ -13,6 +13,7 @@ In order to call initiate checkout endpoint, you need to get an auth token first
 ```java
 EbayOrder ebayOrder = new EbayOrderClient("<your_auth_token>");
 InitiateCheckoutSessionRequest initiateCheckoutSessionRequest = new InitiateCheckoutSessionRequest();
+
 Address shippingAddress = new Address();
 shippingAddress.setAddressLine1("Barbaros Mh. Cigdem Sk. 1/14");
 shippingAddress.setCity("Istanbul");
@@ -21,12 +22,15 @@ shippingAddress.setPostalCode("34000");
 shippingAddress.setCountry("TR");
 shippingAddress.setRecipient("GG Technology");
 shippingAddress.setPhoneNumber("111 222 33 44");
+
 List<LineItemInput> lineItemInputs = new ArrayList<>();
 LineItemInput lineItemInput = new LineItemInput();
 lineItemInput.setQuantity(1);
 lineItemInput.setItemId("v1|112086208159|411034601062");
 lineItemInputs.add(lineItemInput);
+
 initiateCheckoutSessionRequest.setShippingAddress(shippingAddress);
 initiateCheckoutSessionRequest.setLineItemInputs(lineItemInputs);
+
 CheckoutSessionResponse checkoutSessionResponse = ebayOrder.initiateCheckoutSession(initiateCheckoutSessionRequest);
 ```
