@@ -19,7 +19,7 @@
             <groupId>com.gittigidiyor.ebay</groupId>
             <artifactId>ebay-java-sdk-core</artifactId>
             <optional>false</optional>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
