@@ -5,10 +5,10 @@
     <parent>
         <groupId>com.gittigidiyor.ebay</groupId>
         <artifactId>ebay-java-sdk</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <artifactId>ebay-java-sdk-core</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>eBay Java SDK for Common Operations</name>
     <description>eBay Java SDK for Common Operations</description>
