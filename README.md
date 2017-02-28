@@ -2,6 +2,8 @@
 
 This is multi module Java SDK for eBay APIs. Currently, only core and order module are developed, any contribution on other modules will be very welcomed.
 
+[![](https://jitpack.io/v/gittigidiyor/ebay-sdk-java.svg)](https://jitpack.io/#gittigidiyor/ebay-sdk-java)
+
 ## Order SDK
 
 In this module, you can perform calls to Order APIs described [here](http://developer.ebay.com/Devzone/rest/api-ref/order/index.html)
